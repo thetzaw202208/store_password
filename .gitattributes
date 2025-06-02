@@ -1,3 +1,10 @@
 # Exclude source code from release archives
-* export-ignore
-!build/app/outputs/flutter-apk/app-release.apk export-ignore 
+src/ export-ignore
+lib/ export-ignore
+test/ export-ignore
+android/ export-ignore
+ios/ export-ignore
+macos/ export-ignore
+linux/ export-ignore
+windows/ export-ignore
+web/ export-ignore 
