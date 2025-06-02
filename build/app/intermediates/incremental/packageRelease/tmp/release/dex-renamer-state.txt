@@ -1,0 +1,4 @@
+#Tue Jun 03 02:54:59 ICT 2025
+base.0=/Users/thetzawlatt/Documents/projects/store_password/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,214 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.store_password"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+11-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:3:5-71
+11-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:3:22-69
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:5:5-81
+13-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:5:22-78
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:6:5-80
+14-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:6:22-77
+15    <!--
+16         Required to query activities that can process text, see:
+17         https://developer.android.com/training/package-visibility and
+18         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+19
+20         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+21    -->
+22    <queries>
+22-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:46:5-51:15
+23        <intent>
+23-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:47:9-50:18
+24            <action android:name="android.intent.action.PROCESS_TEXT" />
+24-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:48:13-72
+24-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:48:21-70
+25
+26            <data android:mimeType="text/plain" />
+26-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:49:13-50
+26-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:49:19-48
+27        </intent>
+28    </queries>
+29    <!-- suppress DeprecatedClassUsageInspection -->
+30    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+30-->[androidx.biometric:biometric:1.1.0] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/bd1be39a4121b41df3cecdb1f1acb24d/transformed/biometric-1.1.0/AndroidManifest.xml:27:5-74
+30-->[androidx.biometric:biometric:1.1.0] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/bd1be39a4121b41df3cecdb1f1acb24d/transformed/biometric-1.1.0/AndroidManifest.xml:27:22-71
+31
+32    <permission
+32-->[androidx.core:core:1.13.1] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/8cf478dec41eed746328fa8046755ba2/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+33        android:name="com.example.store_password.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+33-->[androidx.core:core:1.13.1] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/8cf478dec41eed746328fa8046755ba2/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+34        android:protectionLevel="signature" />
+34-->[androidx.core:core:1.13.1] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/8cf478dec41eed746328fa8046755ba2/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+35
+36    <uses-permission android:name="com.example.store_password.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+36-->[androidx.core:core:1.13.1] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/8cf478dec41eed746328fa8046755ba2/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+36-->[androidx.core:core:1.13.1] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/8cf478dec41eed746328fa8046755ba2/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+37
+38    <application
+39        android:name="android.app.Application"
+39-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:10:9-42
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.13.1] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/8cf478dec41eed746328fa8046755ba2/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+41        android:extractNativeLibs="true"
+42        android:icon="@mipmap/launcher_icon"
+42-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:11:9-45
+43        android:label="PM"
+43-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:9:9-27
+44        android:requestLegacyExternalStorage="true" >
+44-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:12:9-52
+45        <activity
+45-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:13:9-34:20
+46            android:name="com.example.store_password.MainActivity"
+46-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:14:13-41
+47            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+47-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:19:13-163
+48            android:exported="true"
+48-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:15:13-36
+49            android:hardwareAccelerated="true"
+49-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:20:13-47
+50            android:launchMode="singleTop"
+50-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:16:13-43
+51            android:taskAffinity=""
+51-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:17:13-36
+52            android:theme="@style/LaunchTheme"
+52-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:18:13-47
+53            android:windowSoftInputMode="adjustResize" >
+53-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:21:13-55
+54
+55            <!--
+56                 Specifies an Android theme to apply to this Activity as soon as
+57                 the Android process has started. This theme is visible to the user
+58                 while the Flutter UI initializes. After that, this theme continues
+59                 to determine the Window background behind the Flutter UI.
+60            -->
+61            <meta-data
+61-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:26:13-29:17
+62                android:name="io.flutter.embedding.android.NormalTheme"
+62-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:27:15-70
+63                android:resource="@style/NormalTheme" />
+63-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:28:15-52
+64
+65            <intent-filter>
+65-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:30:13-33:29
+66                <action android:name="android.intent.action.MAIN" />
+66-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:31:17-68
+66-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:31:25-66
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:32:17-76
+68-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:32:27-74
+69            </intent-filter>
+70        </activity>
+71        <!--
+72             Don't delete the meta-data below.
+73             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+74        -->
+75        <meta-data
+75-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:37:9-39:33
+76            android:name="flutterEmbedding"
+76-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:38:13-44
+77            android:value="2" />
+77-->/Users/thetzawlatt/Documents/projects/store_password/android/app/src/main/AndroidManifest.xml:39:13-30
+78
+79        <activity
+79-->[:url_launcher_android] /Users/thetzawlatt/Documents/projects/store_password/build/url_launcher_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:9-11:74
+80            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+80-->[:url_launcher_android] /Users/thetzawlatt/Documents/projects/store_password/build/url_launcher_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:9:13-74
+81            android:exported="false"
+81-->[:url_launcher_android] /Users/thetzawlatt/Documents/projects/store_password/build/url_launcher_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:10:13-37
+82            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+82-->[:url_launcher_android] /Users/thetzawlatt/Documents/projects/store_password/build/url_launcher_android/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:11:13-71
+83
+84        <provider
+84-->[androidx.emoji2:emoji2:1.2.0] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/d221757f531c672c2df2db4ebaa2cbf1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+85            android:name="androidx.startup.InitializationProvider"
+85-->[androidx.emoji2:emoji2:1.2.0] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/d221757f531c672c2df2db4ebaa2cbf1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+86            android:authorities="com.example.store_password.androidx-startup"
+86-->[androidx.emoji2:emoji2:1.2.0] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/d221757f531c672c2df2db4ebaa2cbf1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+87            android:exported="false" >
+87-->[androidx.emoji2:emoji2:1.2.0] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/d221757f531c672c2df2db4ebaa2cbf1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+88            <meta-data
+88-->[androidx.emoji2:emoji2:1.2.0] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/d221757f531c672c2df2db4ebaa2cbf1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+89                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+89-->[androidx.emoji2:emoji2:1.2.0] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/d221757f531c672c2df2db4ebaa2cbf1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+90                android:value="androidx.startup" />
+90-->[androidx.emoji2:emoji2:1.2.0] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/d221757f531c672c2df2db4ebaa2cbf1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+91            <meta-data
+91-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/e80aa748ff6540407d8dba61c0d945fe/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+92                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+92-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/e80aa748ff6540407d8dba61c0d945fe/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+93                android:value="androidx.startup" />
+93-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/e80aa748ff6540407d8dba61c0d945fe/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+94            <meta-data
+94-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+95                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+96                android:value="androidx.startup" />
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+97        </provider>
+98
+99        <uses-library
+99-->[androidx.window:window:1.2.0] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/5093ab42d2307deb2d7ac0b7f5718c38/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+100            android:name="androidx.window.extensions"
+100-->[androidx.window:window:1.2.0] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/5093ab42d2307deb2d7ac0b7f5718c38/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+101            android:required="false" />
+101-->[androidx.window:window:1.2.0] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/5093ab42d2307deb2d7ac0b7f5718c38/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+102        <uses-library
+102-->[androidx.window:window:1.2.0] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/5093ab42d2307deb2d7ac0b7f5718c38/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+103            android:name="androidx.window.sidecar"
+103-->[androidx.window:window:1.2.0] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/5093ab42d2307deb2d7ac0b7f5718c38/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+104            android:required="false" />
+104-->[androidx.window:window:1.2.0] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/5093ab42d2307deb2d7ac0b7f5718c38/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+105
+106        <receiver
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+107            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+108            android:directBootAware="false"
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+109            android:enabled="true"
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+110            android:exported="true"
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+111            android:permission="android.permission.DUMP" >
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+112            <intent-filter>
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+113                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+114            </intent-filter>
+115            <intent-filter>
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+116                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+117            </intent-filter>
+118            <intent-filter>
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+119                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+120            </intent-filter>
+121            <intent-filter>
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+122                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/thetzawlatt/.gradle/caches/8.10.2/transforms/5f7dcf6815bacc3ae7f099ba801348de/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+123            </intent-filter>
+124        </receiver>
+125    </application>
+126
+127</manifest>
